@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Group 404 — Campus Food Finder</title>
+<meta name="description" content="A student-built directory of campus food vendors — Cloud Computing project by Group 404.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar">
+    <a href="index.html" class="logo">Group <span>404</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰ Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero has-bg">
+    <div class="hero-grid container">
+      <div>
+        <span class="eyebrow">Cloud Computing — Group Project</span>
+        <h1>Vendor not found? Not anymore.</h1>
+        <p class="lede">
+          Our campus has food vendors scattered everywhere, but no single place to see them all.
+          <strong>Group 404</strong> built this directory so students can find what's on offer,
+          where it is, and what it costs — all in one page.
+        </p>
+        <p class="meta-line">Course: Cloud Computing &nbsp;·&nbsp; Team: Jason, Creed &amp; Carl &nbsp;·&nbsp; Hosted on GitHub Pages</p>
+      </div>
+      <div class="hero-image">
+        <img src="images/canteen.jpg" alt="Illustration of three campus food stalls with a dotted path connecting them, representing scattered vendors being mapped in one place.">
+      </div>
+      <!-- images/hero-bg.jpg is used as the section's background image (see style.css .hero.has-bg) -->
+    </div>
+  </section>
+
+  <section class="section container" id="vendors">
+    <span class="eyebrow">The Directory</span>
+    <h2>Campus Food Vendors</h2>
+    <p>Search by name, food type, or location.</p>
+
+    <div class="vendor-search">
+      <input type="text" id="vendorSearch" placeholder="Search e.g. 'noodles' or 'Block C'" aria-label="Search vendors">
+    </div>
+
+    <div class="vendor-grid">
+
+      <article class="vendor-card">
+        <img src="images/mama-ts.jpg" alt="Local stew dish served by Mama T's Kitchen" class="vendor-photo">
+        <h3>Mama T's Kitchen</h3>
+        <span class="vendor-type">Local dishes</span>
+        <p>📍 Near Block C, main walkway</p>
+        <p>🕐 8:00 AM – 6:00 PM</p>
+        <p class="price">GHS 10 – 25</p>
+      </article>
+
+      <article class="vendor-card">
+        <img src="images/noodle-nook.jpg" alt="Bowl of stir-fried noodles with vegetables from Noodle Nook" class="vendor-photo">
+        <h3>Noodle Nook</h3>
+        <span class="vendor-type">Noodles &amp; stir-fry</span>
+        <p>📍 Behind the Science Complex</p>
+        <p>🕐 10:00 AM – 8:00 PM</p>
+        <p class="price">GHS 15 – 30</p>
+      </article>
+
+      <article class="vendor-card">
+        <img src="images/grill-spot.jpg" alt="Assorted grilled meats and skewers from The Grill Spot" class="vendor-photo">
+        <h3>The Grill Spot</h3>
+        <span class="vendor-type">Grilled &amp; fast food</span>
+        <p>📍 Opposite the main library</p>
+        <p>🕐 11:00 AM – 9:00 PM</p>
+        <p class="price">GHS 20 – 40</p>
+      </article>
+
+      <article class="vendor-card">
+        <img src="images/brew-corner.jpg" alt="Cappuccino and croissants at Campus Brew Corner" class="vendor-photo">
+        <h3>Campus Brew Corner</h3>
+        <span class="vendor-type">Coffee &amp; pastries</span>
+        <p>📍 Student Union building</p>
+        <p>🕐 7:00 AM – 5:00 PM</p>
+        <p class="price">GHS 5 – 15</p>
+      </article>
+
+      <article class="vendor-card">
+        <img src="images/aunty-efos.jpg" alt="Rice and stew special from Aunty Efo's" class="vendor-photo">
+        <h3>Aunty Efo's</h3>
+        <span class="vendor-type">Rice &amp; stew specials</span>
+        <p>📍 Near the sports complex</p>
+        <p>🕐 9:00 AM – 7:00 PM</p>
+        <p class="price">GHS 10 – 20</p>
+      </article>
+
+      <article class="vendor-card">
+        <img src="images/juice-bar.jpg" alt="Assorted fruit smoothies from The Juice Bar" class="vendor-photo">
+        <h3>The Juice Bar</h3>
+        <span class="vendor-type">Smoothies &amp; snacks</span>
+        <p>📍 Hostel A courtyard</p>
+        <p>🕐 8:00 AM – 6:00 PM</p>
+        <p class="price">GHS 5 – 12</p>
+      </article>
+
+    </div>
+
+    <p class="no-results">No vendors match your search yet.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Group 404 &copy; <span id="year"></span> — Cloud Computing Project — Deployed via GitHub Pages</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

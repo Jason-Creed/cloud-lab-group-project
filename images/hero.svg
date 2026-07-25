@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Illustration of campus food stalls</title>
+  <defs>
+    <linearGradient id="skyFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF7F0"/>
+      <stop offset="1" stop-color="#F1E9DB"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#skyFade)"/>
+
+  <!-- ground -->
+  <rect x="0" y="360" width="800" height="60" fill="#E4D8C3"/>
+  <rect x="0" y="358" width="800" height="4" fill="#D8CFC0"/>
+
+  <!-- Stall 1 -->
+  <g>
+    <rect x="70" y="190" width="150" height="140" fill="#FFFDF9" stroke="#1F3A3D" stroke-width="3"/>
+    <path d="M60 190 L145 130 L230 190 Z" fill="#C1440E"/>
+    <path d="M60 190 L145 130 L230 190 Z" fill="none" stroke="#1F3A3D" stroke-width="3"/>
+    <rect x="95" y="230" width="100" height="100" fill="#E8A33D" opacity="0.25"/>
+    <rect x="95" y="230" width="100" height="100" fill="none" stroke="#1F3A3D" stroke-width="2"/>
+    <text x="145" y="215" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="14" fill="#1F3A3D">GRUB</text>
+  </g>
+
+  <!-- Stall 2 (center, taller) -->
+  <g>
+    <rect x="320" y="150" width="180" height="180" fill="#FFFDF9" stroke="#1F3A3D" stroke-width="3"/>
+    <path d="M305 150 L410 80 L505 150 Z" fill="#E8A33D"/>
+    <path d="M305 150 L410 80 L505 150 Z" fill="none" stroke="#1F3A3D" stroke-width="3"/>
+    <rect x="360" y="200" width="100" height="130" fill="#1F3A3D" opacity="0.08"/>
+    <rect x="360" y="200" width="100" height="130" fill="none" stroke="#1F3A3D" stroke-width="2"/>
+    <text x="410" y="180" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="15" fill="#1F3A3D">CANTEEN</text>
+    <circle cx="380" cy="260" r="14" fill="#C1440E"/>
+    <circle cx="440" cy="260" r="14" fill="#E8A33D"/>
+  </g>
+
+  <!-- Stall 3 -->
+  <g>
+    <rect x="600" y="200" width="140" height="130" fill="#FFFDF9" stroke="#1F3A3D" stroke-width="3"/>
+    <path d="M590 200 L670 145 L750 200 Z" fill="#1F3A3D"/>
+    <rect x="630" y="235" width="80" height="95" fill="#C1440E" opacity="0.2"/>
+    <rect x="630" y="235" width="80" height="95" fill="none" stroke="#1F3A3D" stroke-width="2"/>
+    <text x="670" y="225" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="13" fill="#FBF7F0" transform="translate(0,-5)">STALL</text>
+  </g>
+
+  <!-- simple figure walking between stalls -->
+  <g stroke="#1F3A3D" stroke-width="4" stroke-linecap="round" fill="none">
+    <circle cx="270" cy="300" r="10" fill="#1F3A3D" stroke="none"/>
+    <line x1="270" y1="312" x2="270" y2="345"/>
+    <line x1="270" y1="325" x2="255" y2="340"/>
+    <line x1="270" y1="325" x2="285" y2="340"/>
+    <line x1="270" y1="345" x2="258" y2="360"/>
+    <line x1="270" y1="345" x2="282" y2="360"/>
+  </g>
+
+  <!-- dotted path suggesting search/discovery -->
+  <path d="M100 355 Q 400 400 700 350" fill="none" stroke="#C1440E" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round" opacity="0.6"/>
+</svg>

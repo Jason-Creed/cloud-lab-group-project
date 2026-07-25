@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Group 404</title>
+<meta name="description" content="Get in touch with Group 404 about the Campus Food Finder project.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar">
+    <a href="index.html" class="logo">Group <span>404</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰ Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container">
+    <span class="eyebrow">Cloud Computing — Group Project</span>
+    <h1>Get in touch</h1>
+    <p class="lede">Spotted a vendor we missed, or found wrong info? Let us know.</p>
+  </section>
+
+  <section class="section container">
+    <div class="contact-grid">
+      <div>
+        <span class="eyebrow">Send a message</span>
+        <h2>Contact form</h2>
+        <form class="contact-form" action="mailto:group404@example.com" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send message</button>
+          <p class="form-note">
+            This is a static site, so this form opens your email app instead of submitting directly.
+          </p>
+        </form>
+      </div>
+
+      <div>
+        <span class="eyebrow">Team contacts</span>
+        <h2>Reach us directly</h2>
+        <ul class="contact-list">
+          <li><strong>Jason</strong> — Group Leader</li>
+          <li><strong>Creed</strong> — GitHub Repository Manager</li>
+          <li><strong>Carl</strong> — Design &amp; Content</li>
+        </ul>
+        <p class="meta-line">Course: Cloud Computing &nbsp;·&nbsp; Project: Campus Food Finder &nbsp;·&nbsp; Group 404</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Group 404 &copy; <span id="year"></span> — Cloud Computing Project — Deployed via GitHub Pages</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

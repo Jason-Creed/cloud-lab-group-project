@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Group 404</title>
+<meta name="description" content="About the Campus Food Finder project by Group 404, a Cloud Computing course project.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar">
+    <a href="index.html" class="logo">Group <span>404</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰ Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" aria-current="page">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container">
+    <span class="eyebrow">Cloud Computing — Group Project</span>
+    <h1>About Group 404</h1>
+    <p class="lede">The story behind the directory, and the team who built it.</p>
+  </section>
+
+  <section class="section container">
+    <div class="about-block">
+      <div>
+        <span class="eyebrow">The Problem</span>
+        <h2>Scattered vendors, no single view</h2>
+        <p>
+          Our campus has many food vendors, but they're spread out across different corners of
+          campus with no central place listing what they sell, where they are, or what they charge.
+          Students often end up sticking to the one or two spots they already know, missing out on
+          cheaper or better options nearby.
+        </p>
+      </div>
+      <div>
+        <span class="eyebrow">The Solution</span>
+        <h2>One page, every vendor</h2>
+        <p>
+          <strong>Campus Food Finder</strong> is a simple static website that lists campus food
+          vendors in one place — name, food type, location, price range, and hours — so students
+          can quickly compare options before deciding where to eat. It's built with plain HTML,
+          CSS, and JavaScript, and deployed with GitHub Pages.
+        </p>
+      </div>
+    </div>
+
+    <div class="badge-row">
+      <span class="badge">Course: Cloud Computing</span>
+      <span class="badge">Group: Group 404</span>
+      <span class="badge">Hosting: GitHub Pages</span>
+      <span class="badge">Stack: HTML · CSS · JavaScript</span>
+    </div>
+  </section>
+
+  <section class="section container">
+    <span class="eyebrow">The Team</span>
+    <h2>Who built this</h2>
+    <p>Three roles, one small directory. Here's who did what.</p>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <span class="role">Group Leader</span>
+        <h3>Jason</h3>
+        <p>Coordinated the project, timelines, and the problem/solution direction.</p>
+      </div>
+      <div class="team-card">
+        <span class="role">GitHub Repository Manager</span>
+        <h3>Creed</h3>
+        <p>Manages the repository, commits, and deployment via GitHub Pages.</p>
+      </div>
+      <div class="team-card">
+        <span class="role">Design &amp; Content</span>
+        <h3>Carl</h3>
+        <p>Responsible for the site's design and gathering vendor content.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Group 404 &copy; <span id="year"></span> — Cloud Computing Project — Deployed via GitHub Pages</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
